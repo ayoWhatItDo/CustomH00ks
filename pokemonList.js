@@ -1,4 +1,4 @@
-/* list of common pokemon for the PokemonSelect component. */
+// my fav is mime cause he's worthless just like me frfr
 const pokemon = [
   "pikachu",
   "jigglypuff",
