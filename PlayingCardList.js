@@ -14,10 +14,10 @@ function CardTable() {
   );
   return (
     <div className="PlayingCardList">
-      <h3>Pick a card, any card!</h3>
+      <h3>Go ahead pick one up but if you crease it i'll crease ya neck!</h3>
       <div>
         <button onClick={() => addCard(formatCard)}>Add a playing card!</button>
-        <button onClick={clearCards}>Clear the table</button>
+        <button onClick={clearCards}>Blow all the cards off da table</button>
       </div>
       <div className="PlayingCardList-card-area">
         {cards.map(card => (
