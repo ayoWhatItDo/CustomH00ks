@@ -26,7 +26,9 @@ const pokemon = [
   "scizor",
   "blastoise",
   "mudkip",
-  "garchomp"
+  "garchomp",
+  "joe mama",
+  "ligma"
 ];
 
 export default pokemon;
