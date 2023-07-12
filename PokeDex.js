@@ -16,9 +16,9 @@ function PokeDex() {
   return (
     <div className="PokeDex">
       <div className="PokeDex-buttons">
-        <h3>Please select your pokemon:</h3>
+        <h3>You better pick bulbasaur he da goat!:</h3>
         <PokemonSelect add={addPokemon} />
-        <button onClick={clearPokemon}>Delete the pokemon!</button>
+        <button onClick={clearPokemon}>Execute order 66 on a pokemon right quick</button>
       </div>
       <div className="PokeDex-card-area">
         {pokemon.map(card => (
