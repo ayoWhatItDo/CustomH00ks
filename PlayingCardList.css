@@ -1,10 +1,12 @@
 .PlayingCardList {
   flex: 1;
   flex-direction: column;
-  background: forestgreen;
+
   border-radius: 10px;
   margin: 10px;
   color: white;
+  background: rgb(51,114,45);
+  background: linear-gradient(90deg, rgba(51,114,45,1) 19%, rgba(71,215,154,1) 100%);
 }
 
 .PlayingCardList-card-area {
