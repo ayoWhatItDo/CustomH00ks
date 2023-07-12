@@ -22,7 +22,7 @@ function PokemonSelect({ add, pokemon = pokemonList }) {
         Catch one!
       </button>
       <button onClick={() => add(formatPokemon, choice(pokemon))}>
-        I'm feeling lucky
+        I'm feeling like dipping my toes in thousand island dressing
       </button>
     </div>
   );
