@@ -15,9 +15,7 @@ function formatCard(data) {
   };
 }
 
-/* Format response data from the Pokemon API,
- * extracting the front image, back image,
- * and array of relevant stat information. */
+/* Format response data from the Pokemon API */
 function formatPokemon(data) {
   return {
     id: uuid(),
