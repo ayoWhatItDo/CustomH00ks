@@ -3,6 +3,8 @@
   flex-direction: column;
   width: 100%;
   display: flex;
+  background: rgb(243,153,52);
+background: linear-gradient(90deg, rgba(243,153,52,1) 19%, rgba(0,212,255,1) 100%);
 }
 
 .CardTable > main {
@@ -13,5 +15,5 @@
 
 .Card {
   cursor: pointer;
-  margin: 8px;
+  margin: 7px;
 }
